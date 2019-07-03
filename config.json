@@ -1,5 +1,12 @@
 {
-  "dependencies_config": [],
+  "dependencies_config": [
+    {
+      "github_dependency_config": {
+        "repository_name": "bar"
+      },
+      "name": "TestBar"
+    }
+  ],
   "build_id": "A_Unique_Id",
   "name": "Keanu"
 }
