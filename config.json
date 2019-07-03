@@ -4,6 +4,13 @@
       "github_dependency_config": {
         "repository_name": "bar"
       },
+      "cd_dependency_config": {
+        "path_rules": [
+          "*=>dependencies"
+        ],
+        "build_id": "Another_build",
+        "project_id": "ProjectINameFoo"
+      },
       "name": "TestBar"
     }
   ],
